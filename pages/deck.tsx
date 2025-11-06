@@ -87,37 +87,39 @@ export default function Deck() {
       id: 4,
       title: "Flexible Tiers for Monthly Maintenance Plans",
       text: (
-        <div className="overflow-x-auto w-full max-w-6xl mx-auto">
-          <table className="w-full table-auto border-collapse border border-stone-600 rounded-xl bg-gradient-to-r from-amber-950/70 to-orange-950/70 text-stone-200 text-lg text-balance">
-            <thead>
-              <tr className="border-b border-stone-600">
-                <th className="p-5 text-center font-semibold min-w-[250px]">Tier</th>
-                <th className="p-5 text-center font-semibold min-w-[150px]">Pricing</th>
-                <th className="p-5 text-center font-semibold min-w-[250px]">Focus</th>
-                <th className="p-5 text-center font-semibold min-w-[400px]">Highlights</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr className="border-b border-stone-600">
-                <td className="p-5 align-top font-semibold">Basic Plan – “Just Make It Work”</td>
-                <td className="p-5 align-top text-center font-semibold text-yellow-400">$100/mo</td>
-                <td className="p-5 align-top">Starter AI setup with a custom chatbot</td>
-                <td className="p-5">Website or automation built to function cleanly and efficiently</td>
-              </tr>
-              <tr className="border-b border-stone-600">
-                <td className="p-5 align-top font-semibold">Pro Plan – “I want more support and analytics”</td>
-                <td className="p-5 align-top text-center font-semibold text-yellow-400">$200/mo</td>
-                <td className="p-5 align-top">E-commerce + Performance</td>
-                <td className="p-5">E-commerce support, analytics, more frequent updates, and chatbot tokens</td>
-              </tr>
-              <tr>
-                <td className="p-5 align-top font-semibold">Premium Plan – “I want an AI partner”</td>
-                <td className="p-5 align-top text-center font-semibold text-yellow-400">$300/mo</td>
-                <td className="p-5 align-top">Custom CRM (Customer Relationship Management)</td>
-                <td className="p-5">AI-powered communication, client tracking, and advanced automation</td>
-              </tr>
-            </tbody>
-          </table>
+        <div className="w-full max-w-6xl mx-auto flex flex-col items-center">
+          <div className="w-full overflow-x-auto">
+            <table className="w-full table-auto border-collapse border border-stone-600 rounded-xl bg-gradient-to-r from-amber-950/70 to-orange-950/70 text-stone-200 text-lg text-balance">
+              <thead>
+                <tr className="border-b border-stone-600">
+                  <th className="p-5 text-center font-semibold min-w-[250px]">Tier</th>
+                  <th className="p-5 text-center font-semibold min-w-[150px]">Pricing</th>
+                  <th className="p-5 text-center font-semibold min-w-[250px]">Focus</th>
+                  <th className="p-5 text-center font-semibold min-w-[400px]">Highlights</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-stone-600">
+                  <td className="p-5 align-top font-semibold">Basic Plan – “Just Make It Work”</td>
+                  <td className="p-5 align-top text-center font-semibold text-yellow-400">$100/mo</td>
+                  <td className="p-5 align-top">Starter AI setup with a custom chatbot</td>
+                  <td className="p-5">Website or automation built to function cleanly and efficiently</td>
+                </tr>
+                <tr className="border-b border-stone-600">
+                  <td className="p-5 align-top font-semibold">Pro Plan – “I want more support and analytics”</td>
+                  <td className="p-5 align-top text-center font-semibold text-yellow-400">$200/mo</td>
+                  <td className="p-5 align-top">E-commerce + Performance</td>
+                  <td className="p-5">E-commerce support, analytics, more frequent updates, and chatbot tokens</td>
+                </tr>
+                <tr>
+                  <td className="p-5 align-top font-semibold">Premium Plan – “I want an AI partner”</td>
+                  <td className="p-5 align-top text-center font-semibold text-yellow-400">$300/mo</td>
+                  <td className="p-5 align-top">Custom CRM (Customer Relationship Management)</td>
+                  <td className="p-5">AI-powered communication, client tracking, and advanced automation</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
           <div className="mt-6 text-center">
             <a
               href="/TheAIHandymanLLC_ServicesV2.pdf"
